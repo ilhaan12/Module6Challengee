@@ -1,0 +1,107 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;  /* Sets the font for the entire page */
+    line-height: 1.6;  /* Increases line height for better readability */
+    margin: 0;  /* Removes default margin */
+    padding: 0;  /* Removes default padding */
+    background-color: #f4f4f4;  /* Sets a light gray background color */
+    color: #333;  /* Dark text color for better contrast */
+}
+
+/* Styling for header, main content, and footer sections */
+header, main, footer {
+    padding: 20px;  /* Adds padding around content in header, main, and footer */
+}
+
+/* Styling for header section */
+header {
+    background: #333;  /* Dark background for the header */
+    color: white;  /* White text for contrast */
+    text-align: center;  /* Centers the header text */
+}
+
+/* Styling for navigation menu */
+header nav ul {
+    list-style-type: none;  /* Removes default list styling */
+    padding: 0;  /* Removes default padding */
+}
+
+header nav ul li {
+    display: inline;  /* Makes list items appear horizontally */
+    margin-right: 20px;  /* Adds space between the menu items */
+}
+
+header nav ul li a {
+    color: white;  /* White text color for links */
+    text-decoration: none;  /* Removes underline from links */
+}
+
+/* Margin adjustments for section headings */
+h1, h2 {
+    margin-top: 0;  /* Removes top margin for the headings */
+}
+
+/* Styling for About Me, Skills, and Experience sections */
+#about, #skills, #experience {
+    margin-bottom: 20px;  /* Adds space below each section */
+}
+
+/* Styling for lists (like skills) */
+ul {
+    padding-left: 20px;  /* Adds indentation to the list */
+}
+
+/* Styling for the experience table */
+table {
+    width: 100%;  /* Makes the table span the entire width of the container */
+    border-collapse: collapse;  /* Ensures table borders collapse into one */
+    margin-top: 10px;  /* Adds space above the table */
+}
+
+/* Styling for table, th, and td elements */
+table, th, td {
+    border: 1px solid #ccc;  /* Adds light gray borders to the table */
+    text-align: left;  /* Left-aligns the table text */
+    padding: 8px;  /* Adds padding inside table cells */
+}
+
+/* Styling for table header cells */
+th {
+    background-color: #f2f2f2;  /* Light gray background for table headers */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;  /* Centers the text in the footer */
+    background: #333;  /* Dark background for the footer */
+    color: white;  /* White text in the footer */
+    padding: 10px;  /* Padding around footer content */
+}
+
+/* Styling for links in the footer */
+footer a {
+    color: #4CAF50;  /* Green color for links */
+    text-decoration: none;  /* Removes underline from links */
+}
+
+/* Adds underline when hovering over footer links */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design for small screens (max-width: 600px) */
+@media (max-width: 600px) {
+    header nav ul {
+        text-align: center;  /* Centers the navigation menu on small screens */
+        padding-top: 10px;  /* Adds padding to the top of the menu */
+    }
+
+    header nav ul li {
+        display: block;  /* Makes menu items stack vertically */
+        margin-bottom: 10px;  /* Adds space between each menu item */
+    }
+
+    footer {
+        font-size: 14px;  /* Reduces the font size in the footer for smaller screens */
+    }
+}
